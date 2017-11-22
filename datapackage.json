@@ -1,0 +1,10 @@
+{
+  "name": "birmingham_schools",
+  "description": "List of schools in Birmingham, UK",
+  "resources": [
+    {
+      "name": "birmingham_schools",
+      "path": "data/birmingham_schools.csv"
+    }
+  ]
+}
