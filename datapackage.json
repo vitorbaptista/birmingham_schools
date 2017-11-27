@@ -1,10 +1,94 @@
 {
   "name": "birmingham_schools",
   "description": "List of schools in Birmingham, UK",
+  "sources": [{
+    "name": "birmingham_data_factory",
+    "title": "Birmingham City Council's Data Factory",
+    "web": "https://data.birmingham.gov.uk/dataset/birmingham-schools-datasets"
+  }],
   "resources": [
     {
       "name": "birmingham_schools",
-      "path": "data/birmingham_schools.csv"
+      "path": "data/birmingham_schools.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "School_Name",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "STREET",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "POSTCODE",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "^[a-zA-Z]{1,2}([0-9]{1,2}|[0-9][a-zA-Z])\\s*[0-9][a-zA-Z]{2}$"
+            }
+          },
+          {
+            "name": "Easting",
+            "type": "integer",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "Northing",
+            "type": "integer",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "WEB_SITE",
+            "type": "string"
+          },
+          {
+            "name": "School_Group",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "MAINTAIN_STATUS",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "LEA_NO",
+            "type": "integer",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "DCFS_No",
+            "type": "integer",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "_geom",
+            "type": "geojson",
+            "constraints": {
+              "required": true
+            }
+          }
+        ]
+      }
     }
   ]
 }
