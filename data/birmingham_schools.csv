@@ -1,5 +1,5 @@
 School_Name,STREET,POSTCODE,Easting,Northing,WEB_SITE,School_Group,MAINTAIN_STATUS,LEA_NO,DCFS_No,_geom
-Acocks Green Primary School,Westley Road,B27 7UQ,411976,283216,http://acocks.schooljotter2.com/,Primary,Academy Converter,330,2020,"{""type"":""Point"",""coordinates"":[-1.82522312891254,52.4467952243302]}"
+Acocks Green Primary School,Westley Road,invalid postalcode,nonnumber,283216,http://acocks.schooljotter2.com/,Primary,Academy Converter,330,2020,"{""type"":""Point"",""coordinates"":[-1.82522312891254,52.4467952243302]}"
 Adderley Nursery School,Adderley Road,B8 1EH,409476,287857,http://www.addleyn.bham.sch.uk/,Nursery,LA Nursery School,330,1027,"{""type"":""Point"",""coordinates"":[-1.86187538460657,52.4885571394878]}"
 Adderley Primary School,Arden Road,B8 1DZ,409534,287331,http://www.adderleyprimary.co.uk/,Primary,Community School,330,2010,"{""type"":""Point"",""coordinates"":[-1.86105072305983,52.483827465766]}"
 Al-Furqan Primary School,Reddings Lane,B11 3EY,410459,283448,http://www.al-furqan-pri.bham.sch.uk/,Primary,Voluntary Aided School,330,5949,"{""type"":""Point"",""coordinates"":[-1.84755023388747,52.4489027767099]}"
