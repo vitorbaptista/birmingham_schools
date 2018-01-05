@@ -56,7 +56,18 @@
             "name": "School_Group",
             "type": "string",
             "constraints": {
-              "required": true
+              "required": true,
+              "enum": [
+                "All Through",
+                "Alternative",
+                "Infants",
+                "Juniors",
+                "Not applicable",
+                "Nursery",
+                "Primary",
+                "Secondary",
+                "Special"
+              ]
             }
           },
           {
