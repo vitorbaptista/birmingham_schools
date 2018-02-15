@@ -50,7 +50,8 @@
           },
           {
             "name": "WEB_SITE",
-            "type": "string"
+            "type": "string",
+            "format": "uri"
           },
           {
             "name": "School_Group",
