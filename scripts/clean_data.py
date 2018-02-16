@@ -2,13 +2,16 @@ import os
 import csv
 import tempfile
 
-path = os.path.join(
+
+DATA_PATH = os.path.join(
     os.path.dirname(__file__),
     '../data/birmingham_schools.csv'
 )
 
+
 def clean_data(path):
-    with open(path) as inp, tempfile.NamedTemporaryFile('w', delete=False) as output:
+    with open(path) as inp, \
+         tempfile.NamedTemporaryFile('w', delete=False) as output:
         # Lowercase all headers
         headers = inp.readline().strip().lower().split(',')
 
@@ -30,4 +33,4 @@ def fix_kingsland_url(row):
 
 
 if __name__ == '__main__':
-    clean_data(path)
+    clean_data(DATA_PATH)
