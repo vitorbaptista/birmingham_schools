@@ -13,21 +13,21 @@
       "schema": {
         "fields": [
           {
-            "name": "School_Name",
+            "name": "school_name",
             "type": "string",
             "constraints": {
               "required": true
             }
           },
           {
-            "name": "STREET",
+            "name": "street",
             "type": "string",
             "constraints": {
               "required": true
             }
           },
           {
-            "name": "POSTCODE",
+            "name": "postcode",
             "type": "string",
             "constraints": {
               "required": true,
@@ -35,26 +35,26 @@
             }
           },
           {
-            "name": "Easting",
+            "name": "easting",
             "type": "integer",
             "constraints": {
               "required": true
             }
           },
           {
-            "name": "Northing",
+            "name": "northing",
             "type": "integer",
             "constraints": {
               "required": true
             }
           },
           {
-            "name": "WEB_SITE",
+            "name": "web_site",
             "type": "string",
             "format": "uri"
           },
           {
-            "name": "School_Group",
+            "name": "school_group",
             "type": "string",
             "constraints": {
               "required": true,
@@ -72,21 +72,21 @@
             }
           },
           {
-            "name": "MAINTAIN_STATUS",
+            "name": "maintain_status",
             "type": "string",
             "constraints": {
               "required": true
             }
           },
           {
-            "name": "LEA_NO",
+            "name": "lea_no",
             "type": "integer",
             "constraints": {
               "required": true
             }
           },
           {
-            "name": "DCFS_No",
+            "name": "dcfs_no",
             "type": "integer",
             "constraints": {
               "required": true
