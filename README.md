@@ -5,6 +5,8 @@
 Data package for the list of schools in Birmingham, UK, extracted from
 https://data.birmingham.gov.uk/dataset/birmingham-schools-datasets.
 
+[![Schools GeoJSON Preview](docs/geojson_preview.png)](data/birmingham_schools.geojson)
+
 ## Data
 
 The data files consist of the CSV taken from Birmingham's Open Data Portal with
