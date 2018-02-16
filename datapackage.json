@@ -101,6 +101,11 @@
           }
         ]
       }
+    },
+    {
+      "name": "birmingham_schools_geojson",
+      "path": "data/birmingham_schools.geojson",
+      "format": "geojson"
     }
   ]
 }
