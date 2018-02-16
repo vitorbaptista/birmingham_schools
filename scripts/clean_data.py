@@ -20,15 +20,19 @@ def clean_data(path):
         writer.writeheader()
 
         for row in reader:
-            row = fix_kingsland_url(row)
+            row = fix_urls(row)
             writer.writerow(row)
 
     os.replace(output.name, path)
 
 
-def fix_kingsland_url(row):
-    if row['web_site'] == 'www.kingsland.bham.sch.uk/':
-        row['web_site'] = 'http://{}'.format(row['web_site'])
+def fix_urls(row):
+    fixed_url_mapping = {
+        'www.kingsland.bham.sch.uk/': 'http://www.kingsland.bham.sch.uk/',
+        'http://www.watrmill.bham.sch.uk/': 'http://www.watermill.bham.sch.uk/',
+    }
+    if row['web_site'] in fixed_url_mapping:
+        row['web_site'] = fixed_url_mapping[row['web_site']]
     return row
 
 
