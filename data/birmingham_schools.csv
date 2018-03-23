@@ -1,4 +1,4 @@
-school_name,street,postcode,easting,northing,web_site,school_group,maintain_status,lea_no,dcfs_no,_geom
+school_name,street,postcode,easting,northing,web_site,school_group,maintain_status,lea_no,dcfs_no,_geom,other_info,
 Acocks Green Primary School,Westley Road,B27 7UQ,411976,283216,http://acocks.schooljotter2.com/,Primary,Academy Converter,330,2020,"{""type"":""Point"",""coordinates"":[-1.82522312891254,52.4467952243302]}"
 Adderley Nursery School,Adderley Road,B8 1EH,409476,287857,http://www.addleyn.bham.sch.uk/,Nursery,LA Nursery School,330,1027,"{""type"":""Point"",""coordinates"":[-1.86187538460657,52.4885571394878]}"
 Adderley Primary School,Arden Road,B8 1DZ,409534,287331,http://www.adderleyprimary.co.uk/,Primary,Community School,330,2010,"{""type"":""Point"",""coordinates"":[-1.86105072305983,52.483827465766]}"
@@ -35,7 +35,7 @@ Benson Community School,Benson Road,B18 5TD,404786,288893,http://www.bensonschoo
 Billesley Primary School,Trittiford Road,B13 0ES,409079,280777,http://www.billesley.bham.sch.uk/,Primary,Academy Sponsor Led,330,2072,"{""type"":""Point"",""coordinates"":[-1.86791206532655,52.4249237846635]}"
 Birches Green Infant School,Birches Green Road,B24 9SR,411674,290972,http://www.birchgni.bham.sch.uk/,Infants,Community School,330,2025,"{""type"":""Point"",""coordinates"":[-1.82939744922351,52.5165274705593]}"
 Birches Green Junior School,Birches Green Road,B24 9SR,411719,291016,http://www.birchgnj.bham.sch.uk/,Juniors,Community School,330,2024,"{""type"":""Point"",""coordinates"":[-1.82873276136921,52.5169220451015]}"
-Birchfield Community School,Trinity Road,B6 6AJ,406946,290217,http://www.birchfld.bham.sch.uk/,Primary,Community School,330,2297,"{""type"":""Point"",""coordinates"":[-1.89909043128083,52.5098117150007]}"
+Birchfield Community School,Trinity Road,B6 6AJ,406946,290217,http://www.birchfld.bham.sch.uk/,Primary,Community School,330A,2297,"{""type"":""Point"",""coordinates"":[-1.89909043128083,52.5098117150007]}"
 Birmingham Ormiston Academy,1 Grovesnor Street,B4 7QD,407742,287262,http://www.boa-academy.co.uk/,Secondary,Academy Sponsor Led,330,4000,"{""type"":""Point"",""coordinates"":[-1.88743134729853,52.4832360227224]}"
 Bishop Challoner Catholic College,Institute Road,B14 7EG,407588,281677,http://www.bishopchalloner.org.uk/,Secondary,Voluntary Aided School,330,5413,"{""type"":""Point"",""coordinates"":[-1.8898327993637,52.4330282477432]}"
 Bishop Vesey's Grammar School,Lichfield Road,B74 2NH,412162,296813,http://www.bvgs.co.uk/,Secondary,Academy Converter,330,4660,"{""type"":""Point"",""coordinates"":[-1.82200898596058,52.5690264340191]}"
