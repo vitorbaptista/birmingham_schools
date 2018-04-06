@@ -1,4 +1,4 @@
-# Birmingham Schools
+# Birmingham Schools Dataset
 
 [![goodtables.io](https://goodtables.io/badge/github/vitorbaptista/birmingham_schools.svg?branch=master)](https://goodtables.io/github/vitorbaptista/birmingham_schools)
 
