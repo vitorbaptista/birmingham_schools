@@ -14,6 +14,8 @@ a few modifications:
 
 * All headers are lowercased, so `WEB_SITE` becomes `web_site`
 * The Kingsland school web site URL is fixed by adding a "http://" prefix
+* The `_geom` column is renamed to `geom` so it can be loaded successfully in
+  CKAN
 
 These modifications are done via the
 [scripts/clean\_data.py](scripts/clean_data.py) script.
@@ -21,7 +23,7 @@ These modifications are done via the
 I also generated a GeoJSON file with the schools coordinates and their
 attributes in the
 [data/birmingham\_schools.geojson](data/birmingham_schools.geojson). The
-coordinates come from the CSV's `_geom` column.
+coordinates come from the CSV's `geom` column.
 
 ## Preparation
 

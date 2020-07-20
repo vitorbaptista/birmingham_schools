@@ -23,10 +23,10 @@ def generate_geojson(path, output_path):
         for row in csv.DictReader(csvfile):
             feature = {
                 'type': 'Feature',
-                'geometry': json.loads(row['_geom']),
+                'geometry': json.loads(row['geom']),
                 'properties': row,
             }
-            del feature['properties']['_geom']
+            del feature['properties']['geom']
             geojson['features'].append(feature)
 
     with open(output_path, 'w') as geojsonfile:

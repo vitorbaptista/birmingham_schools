@@ -93,7 +93,7 @@
             }
           },
           {
-            "name": "_geom",
+            "name": "geom",
             "type": "geojson",
             "constraints": {
               "required": true

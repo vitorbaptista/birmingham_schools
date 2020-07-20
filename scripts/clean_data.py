@@ -13,7 +13,12 @@ def clean_data(path):
     with open(path) as inp, \
          tempfile.NamedTemporaryFile('w', delete=False) as output:
         # Lowercase all headers
-        headers = inp.readline().strip().lower().split(',')
+        headers = [
+            # Rename _geom to geom, as the Data Store fails
+            # on loading headers starting with underscore
+            header.lstrip('_')
+            for header in inp.readline().strip().lower().split(',')
+        ]
 
         reader = csv.DictReader(inp, fieldnames=headers)
         writer = csv.DictWriter(output, fieldnames=headers)
